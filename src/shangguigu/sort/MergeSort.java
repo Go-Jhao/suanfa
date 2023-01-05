@@ -13,9 +13,9 @@ import java.util.Arrays;
  */
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int) (Math.random() * 80000); // 生成一个[0, 8000000) 数
+        int[] arr = new int[800000];
+        for (int i = 0; i < 800000; i++) {
+            arr[i] = (int) (Math.random() * 800000); // 生成一个[0, 8000000) 数
         }
         int temp[] = new int[arr.length]; //归并排序需要一个额外空间
         long time1 = System.currentTimeMillis();
